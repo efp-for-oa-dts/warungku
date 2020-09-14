@@ -1,0 +1,223 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1000px){
+.lesson {
+  width: 50%;
+}
+}
+
+@media (max-width: 670px) {
+.lesson {
+  width: 100%;
+}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "calibri light";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  color: #ffffff;
+  background-image: url(https://alphapay.id/wp-content/uploads/2019/02/image009.jpg);
+  background-size: cover;
+  text-align: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 46px;
+  letter-spacing: 6px;
+  margin-bottom: 8px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #2C3A47;
+}
+
+.kemenkeu {
+  background-color: #182C61;
+  margin-right: 10px;
+}
+
+.customs {
+  background-color: #182C61;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 55px;
+  width: 100%;
+  background-color: rgba(0, 0, 77, 0.3);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255,255,255, 0.3);
+  transition: all 1s;
+}
+
+.header-right:hover {
+  background-color: rgba(255,255,255, 0.5);
+}
+
+.header-right a {
+  line-height: 55px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: left;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2{
+  font-weight: normal;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 33.3%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p{
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  color: #2980b9;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+  text-align: right;
+  background-color: #f0f0f5;
+}
+
+span {
+  color: #546de5;
+}
+
+.message {
+  background-color: #546de5;
+  cursor: crosshair;
+  box-shadow: 0 10px #e15f41;
+  padding: 15px 40px;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 124px;
+}
+
+footer p {
+  color: black;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c1c1d7;
+  opacity: 0.9;
+}
+
+.footer-list {
+  float: right
+}
